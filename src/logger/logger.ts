@@ -1,9 +1,6 @@
-// logger.ts
-
 import { LogFormat } from "../interfaces/log.format.interface";
 import { Transport } from "../interfaces/log.transport.interface";
 
-// Define the log level enum
 enum LogLevel {
   ERROR = "error",
   WARN = "warn",
@@ -11,9 +8,6 @@ enum LogLevel {
   DEBUG = "debug",
 }
 
-// Define the log format interface
-
-// Define the logger class
 class Logger {
   private level: LogLevel;
   private format: LogFormat;

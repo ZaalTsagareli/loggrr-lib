@@ -1,4 +1,3 @@
-// fileTransport.ts
 import fs from "fs";
 import { LogLevel, Transport } from "../logger/logger";
 

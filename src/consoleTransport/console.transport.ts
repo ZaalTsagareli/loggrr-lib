@@ -1,5 +1,3 @@
-// consoleTransport.ts
-
 import { LogLevel, Transport } from "../logger/logger";
 
 class ConsoleTransport implements Transport {

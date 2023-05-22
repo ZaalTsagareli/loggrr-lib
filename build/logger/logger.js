@@ -1,8 +1,6 @@
 "use strict";
-// logger.ts
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Logger = exports.LogLevel = void 0;
-// Define the log level enum
 var LogLevel;
 (function (LogLevel) {
     LogLevel["ERROR"] = "error";
@@ -11,8 +9,6 @@ var LogLevel;
     LogLevel["DEBUG"] = "debug";
 })(LogLevel || (LogLevel = {}));
 exports.LogLevel = LogLevel;
-// Define the log format interface
-// Define the logger class
 class Logger {
     constructor(level = LogLevel.INFO, transports, format = { format: "[{level}] {message}" }) {
         this.level = level;
